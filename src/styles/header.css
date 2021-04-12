@@ -1,0 +1,90 @@
+header{
+    height: 10%;
+    width: 100%;
+    position: relative;
+    top: 0;
+    background-color: var(--primary-color);
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header h2{
+    font-size: 1.5em;
+}
+
+.header-right{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-input{
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 10px;
+    background: #fff;
+    height: 1.5em;
+}
+
+.search-input{
+    outline: none;
+    position: relative;
+    width: 80%;
+    height: 100%;
+    border: none;
+}
+
+.search-btn{
+    background: transparent;
+    outline: none;
+    border: none;
+    position: absolute;
+    right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+}
+
+.search-btn > img{
+    width: 100%;
+    position: absolute;
+}
+
+.search-btn:hover{
+    cursor: pointer;
+}
+
+.header-option{
+    color: #000;
+    text-decoration: none;
+    position: relative;
+}
+
+.header-option::after{
+    min-width: 0%;
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    transform: translate(-50%);
+    height: 1px;
+    background: #000;
+    content: "";
+    transition: 0.3s ease;
+}
+
+.header-option:hover::after{
+    cursor: pointer;
+    min-width: 100%;
+}
+
+.header-option:active::after{
+    cursor: pointer;
+    min-width: 90%;
+}

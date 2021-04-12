@@ -1,0 +1,18 @@
+html, body{
+    height: 100%;
+    --primary-color: #dddddd;
+}
+
+*{
+    margin: 0;
+    font-family: 'Arial';
+    transition: 0.3s ease;
+}
+
+main{
+    min-height: 80%;
+    width: 100%;
+    overflow: auto;
+    position: relative;
+    background: #aaaaaa;
+}

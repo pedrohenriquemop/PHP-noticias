@@ -1,0 +1,32 @@
+main{
+    padding: 2em;
+    box-sizing: border-box;
+    background-image: linear-gradient(to bottom, #cccccc, #bbbbbb);
+}
+
+.not-tit{
+    font-size: 2.5em;
+}
+
+.not-cat{
+    font-weight: 600;
+    opacity: 0.6;
+    margin-bottom: 2em;
+}
+
+.not-con{
+    text-indent: 2em;
+    text-align: justify;
+    margin: 0.3em 1em;
+    font-size: 1.5em;
+    color: #111111;
+}
+
+.error{
+    color: red;
+    font-size: 1.1em;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
